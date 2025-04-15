@@ -1,0 +1,12 @@
+.title {
+  color: #fefffa;
+  font-size: 3rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+.separationBar {
+  width: 100px;
+  height: 5px;
+  background-color: #ff4b57;
+}
