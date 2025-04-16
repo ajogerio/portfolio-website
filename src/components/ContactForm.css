@@ -1,0 +1,12 @@
+.contactFormContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactFormContainer h3, p {
+  margin: 0;
+}
+
+.contactFormContainer h3 {
+  font-size: 1.5rem;
+}
