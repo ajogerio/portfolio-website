@@ -1,7 +1,7 @@
 import NavigationBar from "./components/NavigationBar";
 import HelloSection from "./components/HelloSection";
 import ProjectsSection from "./components/ProjectsSection";
-import ContactForm from "./components/ContactForm";
+import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import './App.css'
 
@@ -14,7 +14,7 @@ function App() {
       <main>
         <HelloSection />
         <ProjectsSection />
-        <ContactForm />
+        <ContactSection />
       </main>
       <footer>
         <Footer />

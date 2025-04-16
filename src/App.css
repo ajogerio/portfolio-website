@@ -8,4 +8,5 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0 80px;
+  gap: 10rem;
 }
