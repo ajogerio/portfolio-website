@@ -1,0 +1,10 @@
+.boxContainer {
+  display: flex;
+  background-color: #2b2e41;
+  padding: 1rem;
+}
+
+.boxDetailsContainer {
+  display: flex;
+  flex-direction: column;
+}
