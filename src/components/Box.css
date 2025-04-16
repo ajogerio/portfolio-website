@@ -2,9 +2,37 @@
   display: flex;
   background-color: #2b2e41;
   padding: 1rem;
+  align-items: center;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease;
+}
+
+.boxContainer:hover {
+  box-shadow: 5px 5px 0 #ff4b57;
+  cursor: pointer;
+
+  .circle {
+    background-color: #ff4b57;
+    transition: background-color 0.2s ease;
+  }
 }
 
 .boxDetailsContainer {
   display: flex;
   flex-direction: column;
+}
+
+.boxDetailsContainer h4 {
+  margin: 0;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #23253a;
+  height: 40px;
+  width: 40px;
+  border: 4px;
 }

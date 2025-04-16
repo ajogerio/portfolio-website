@@ -1,12 +1,15 @@
-import './Box.css'
+import "./Box.css";
 
-export default function Box() {
+export default function Box(props) {
+  const { socialMedia, socialMediaIcon, socialMediaUsername } = props;
   return (
     <div className="boxContainer">
-      <i class="fa-brands fa-instagram"></i>
+      <div className="circle">
+        {socialMediaIcon}
+      </div>
       <div className="boxDetailsContainer">
-        <h4>Instagram</h4>
-        <p>@aaogerio</p>
+        <h4>{socialMedia}</h4>
+        <p>{socialMediaUsername}</p>
       </div>
     </div>
   );

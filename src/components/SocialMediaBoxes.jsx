@@ -1,13 +1,29 @@
-import Box from "./Box"
-import './SocialMediaBoxes.css'
+import Box from "./Box";
+import "./SocialMediaBoxes.css";
 
 export default function SocialMediaBoxes() {
   return (
     <div className="socialMediaBoxesContainer">
-      <Box />
-      <Box />
-      <Box />
-      <Box />
+      <Box
+        socialMedia="Instagram"
+        socialMediaIcon={<i className="fa-brands fa-instagram"></i>}
+        socialMediaUsername="@aaogerio"
+      />
+      <Box
+        socialMedia="Instagram"
+        socialMediaIcon={<i className="fa-brands fa-instagram"></i>}
+        socialMediaUsername="@aaogerio"
+      />
+      <Box
+        socialMedia="Instagram"
+        socialMediaIcon={<i className="fa-brands fa-instagram"></i>}
+        socialMediaUsername="@aaogerio"
+      />
+      <Box
+        socialMedia="Instagram"
+        socialMediaIcon={<i className="fa-brands fa-instagram"></i>}
+        socialMediaUsername="@aaogerio"
+      />
     </div>
-  )
+  );
 }
