@@ -7,6 +7,5 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
-  padding: 80px
+  padding: 0 80px;
 }

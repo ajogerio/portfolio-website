@@ -1,4 +1,4 @@
-import ProjectsHeader from "./ProjectsHeader";
+import ProjectsHeader from "./SectionHeader";
 import ProjectCardsSection from "./ProjectsCardsSection";
 import './ProjectsSection.css'
 
@@ -6,7 +6,7 @@ export default function ProjectsSection() {
   return (
     <>
       <div className="projectsSectionContainer">
-        <ProjectsHeader />
+        <ProjectsHeader title="Projects"/>
         <ProjectCardsSection />
       </div>
     </>
