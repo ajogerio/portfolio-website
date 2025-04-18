@@ -7,7 +7,7 @@ export default function SocialMediaBoxes() {
         <Box
           socialMedia="Instagram"
           socialMediaIcon={<i className="fa-brands fa-instagram"></i>}
-          socialMediaUsername="@aaogerio"
+          socialMediaUsername="@ajogerio"
         />
       <Box
         socialMedia="Facebook"

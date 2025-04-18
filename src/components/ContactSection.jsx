@@ -1,7 +1,7 @@
 import SectionHeader from "./SectionHeader";
 import SocialMediaBoxes from "./SocialMediaBoxes";
 import ContactForm from "./ContactForm";
-import './ContactSection.css'
+import "./ContactSection.css";
 
 export default function ContactSection() {
   return (

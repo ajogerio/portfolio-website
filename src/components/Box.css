@@ -3,9 +3,13 @@
   background-color: #2b2e41;
   padding: 1rem;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   transition: box-shadow 0.2s ease;
   gap: 1rem;
+}
+
+.boxContainer p {
+  margin: 0;
 }
 
 .boxContainer:hover {
