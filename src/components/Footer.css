@@ -1,0 +1,19 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: #1a1c2b;
+  padding: 0 5rem;
+}
+
+.footerTop {
+  height: 80%;
+  border-bottom: 1px solid gray;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: flex-end;
+  height: 20%;
+}
+
